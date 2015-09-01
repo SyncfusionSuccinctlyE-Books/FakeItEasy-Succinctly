@@ -1,0 +1,17 @@
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\FakeItEasySuccinctly.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\FakeItEasySuccinctly.pdb
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\FakeItEasy.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\nunit.framework.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\FakeItEasy.xml
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\nunit.framework.xml
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\obj\Debug\FakeItEasySuccinctly.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\obj\Debug\FakeItEasySuccinctly.pdb
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\FakeItEasySuccinctly\bin\Debug\FakeItEasySuccinctly.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\FakeItEasySuccinctly\bin\Debug\FakeItEasySuccinctly.pdb
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\FakeItEasySuccinctly\bin\Debug\FakeItEasy.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\FakeItEasySuccinctly\bin\Debug\nunit.framework.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\FakeItEasySuccinctly\bin\Debug\FakeItEasy.xml
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\FakeItEasySuccinctly\bin\Debug\nunit.framework.xml
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\FakeItEasySuccinctly\obj\Debug\FakeItEasySuccinctly.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\FakeItEasySuccinctly\obj\Debug\FakeItEasySuccinctly.pdb
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\FakeItEasySuccinctly\obj\Debug\FakeItEasySuccinctly.csprojResolveAssemblyReference.cache

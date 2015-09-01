@@ -1,0 +1,17 @@
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\Chapter 5\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\Chapter 5\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\Chapter 5\ClassLibrary1\ClassLibrary1\bin\Debug\FakeItEasy.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\Chapter 5\ClassLibrary1\ClassLibrary1\bin\Debug\nunit.framework.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\Chapter 5\ClassLibrary1\ClassLibrary1\bin\Debug\FakeItEasy.xml
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\Chapter 5\ClassLibrary1\ClassLibrary1\bin\Debug\nunit.framework.xml
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\Chapter 5\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\Chapter 5\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\FakeItEasy.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\nunit.framework.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\FakeItEasy.xml
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\bin\Debug\nunit.framework.xml
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\mgmccarthy\Desktop\Syncfusion\FakeItEasy eBook\Code Samples\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache

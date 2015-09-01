@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41CB671E-7BF7-478B-BFEC-CACAF0B961CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FakeItEasySuccinctly</RootNamespace>
+    <AssemblyName>FakeItEasySuccinctly</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FakeItEasy">
+      <HintPath>..\packages\FakeItEasy.1.25.2\lib\net40\FakeItEasy.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chapter2UnitTestingIocAndStubs\AfterIoC\CustomerRepositoryStub.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\AfterIoC\ICustomerRepository.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\FakeItEasy\ICustomerRepository.cs" />
+    <Compile Include="Chapter5ConfiguringCallsToAFake\SendEmailTests.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsLazily\Customer.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsLazily\CustomerServiceTests.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsLazily\ICustomerRepository.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsLazily\CustomerService.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsNextFromSequence\Customer.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsNextFromSequence\CustomerService.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsNextFromSequence\CustomerServiceTests.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsNextFromSequence\Email.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsNextFromSequence\ICustomerRepository.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsNextFromSequence\IProvideNewGuids.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\ReturnsNextFromSequence\ISendEmail.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\Returns\ISendEmail.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\ReturnValues\Returns\ISendEmailTests.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Strict\AClassThatNeedsToDoSomething.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Strict\ConfigureAStrictFakeOfIDoSomething.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Strict\IDoSomething.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\IsInstanceOf\CreateCustomer.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\IsInstanceOf\CustomerService.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\IsInstanceOf\CustomerServiceTests.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\IsInstanceOf\IBus.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\IsSameSequenceAs\Customer.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\IsSameSequenceAs\CustomerService.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\IsSameSequenceAs\CustomerServiceTests.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\IsSameSequenceAs\IBuildCsv.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ADummy\CustomerService.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ADummy\CustomerServiceTests.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ADummy\ISendEmail.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ADummy\Result.cs" />
+    <Compile Include="Chapter9FakingTheSut\AdminEmailService.cs" />
+    <Compile Include="Chapter9FakingTheSut\AdminEmailServiceTests.cs" />
+    <Compile Include="Chapter9FakingTheSut\Customer.cs" />
+    <Compile Include="Chapter9FakingTheSut\EmailBase.cs" />
+    <Compile Include="Chapter9FakingTheSut\ICustomerRepository.cs" />
+    <Compile Include="Chapter9FakingTheSut\ISendEmail.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\AfterIoC\Customer.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\AfterIoC\CustomerService.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\AfterIoC\CustomerServiceTests.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\BeforeIoC\Customer.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\BeforeIoC\CustomerRepository.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\BeforeIoC\CustomerService.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\BeforeIoC\CustomerServiceTests.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\FakeItEasy\Customer.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\FakeItEasy\CustomerService.cs" />
+    <Compile Include="Chapter2UnitTestingIocAndStubs\FakeItEasy\CustomerServiceTests.cs" />
+    <Compile Include="Chapter3IntroducingFakeItEasy\AClassWithAFakeableMethod\AClassWithAFakeableMethod.cs" />
+    <Compile Include="Chapter3IntroducingFakeItEasy\AClassWithAFakeableMethod\AClassWithAFakeableMethodTests.cs" />
+    <Compile Include="Chapter3IntroducingFakeItEasy\AClassWithAnUnfakeableMethod\AClassWithAnUnfakeableMethod.cs" />
+    <Compile Include="Chapter3IntroducingFakeItEasy\AClassWithAnUnfakeableMethod\AClassWithAnUnfakeableMethodTests.cs" />
+    <Compile Include="Chapter3IntroducingFakeItEasy\ConstructorArguments\AClassWithArguments.cs" />
+    <Compile Include="Chapter3IntroducingFakeItEasy\YouCannotFakeAStaticOrSealedClass\YouCannotFakeASealedorStaticClass.cs" />
+    <Compile Include="Chapter4CreatingAFake\FakingAClass.cs" />
+    <Compile Include="Chapter5ConfiguringCallsToAFake\ISendEmail.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\DoingNothing\Customer.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\DoingNothing\CustomerService.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\DoingNothing\CustomerServiceTests.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\DoingNothing\ICustomerRepository.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\DoingNothing\ISendEmail.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Exceptions\BadCustomerEmailException.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Exceptions\Customer.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Exceptions\CustomerService.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Exceptions\CustomerServiceTests.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Exceptions\ICustomerRepository.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Exceptions\ISendEmail.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Invokes\Customer.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Invokes\CustomerService.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Invokes\CustomerServiceTests.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\Invokes\IBuildCsv.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\OutAndRefParameters\Customer.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\OutAndRefParameters\CustomerService.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\OutAndRefParameters\CustomerServiceTests.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\OutAndRefParameters\ICustomerRepository.cs" />
+    <Compile Include="Chapter6SpecifyingAFakesBehavior\OutAndRefParameters\ISendEmail.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\BasicUsage\Customer.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\BasicUsage\CustomerService.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\BasicUsage\CustomerServiceTests.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\BasicUsage\ICustomerRepository.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\BasicUsage\ISendEmail.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\Repeated\Customer.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\Repeated\CustomerService.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\Repeated\CustomerServiceTests.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\Repeated\ICustomerRepository.cs" />
+    <Compile Include="Chapter7Assertions\MustHaveHappened\Repeated\ISendEmail.cs" />
+    <Compile Include="Chapter7Assertions\MustNotHaveHappened\Customer.cs" />
+    <Compile Include="Chapter7Assertions\MustNotHaveHappened\CustomerService.cs" />
+    <Compile Include="Chapter7Assertions\MustNotHaveHappened\CustomerServiceTests.cs" />
+    <Compile Include="Chapter7Assertions\MustNotHaveHappened\ICustomerRepository.cs" />
+    <Compile Include="Chapter7Assertions\MustNotHaveHappened\ISendEmail.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\DealingWithObject\Customer.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\DealingWithObject\CustomerEmail.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\DealingWithObject\CustomerService.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\DealingWithObject\CustomerServiceTests.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\DealingWithObject\ICustomerRepository.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\DealingWithObject\ISendEmail.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\DealingWithObject\Email.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\DealingWithObject\PreferredCustomerEmail.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\ThatMatches\Customer.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\ThatMatches\CustomerService.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\ThatMatches\CustomerServiceTests.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\ThatMatches\Email.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\ThatMatches\ICustomerRepository.cs" />
+    <Compile Include="Chapter8Arguments\ConstrainingArguments\ThatMatches\ISendEmail.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ATIgnored\Customer.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ATIgnored\CustomerService.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ATIgnored\CustomerServiceTests.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ATIgnored\ICustomerRepository.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ATIgnored\ISendEmail.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\Customer.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\CustomerService.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\CustomerServiceTests.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ICustomerRepository.cs" />
+    <Compile Include="Chapter8Arguments\PassingArgumentsToMethods\ISendEmail.cs" />
+    <Compile Include="Chapter9FakingTheSut\ProtectedPropertyGetterSetters\ICustomerRepository.cs" />
+    <Compile Include="Chapter9FakingTheSut\ProtectedPropertyGetterSetters\ISendEmail.cs" />
+    <Compile Include="Chapter9FakingTheSut\ProtectedPropertyGetterSetters\PromotionalEmailService.cs" />
+    <Compile Include="Chapter9FakingTheSut\ProtectedPropertyGetterSetters\EmailBase.cs" />
+    <Compile Include="Chapter9FakingTheSut\ProtectedPropertyGetterSetters\PromotionalEmailServiceTests.cs" />
+    <Compile Include="Introduction\ClassToBeTested.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
